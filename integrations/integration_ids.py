@@ -81,6 +81,18 @@ class IntegrationID(Enum):
         Token.SUSDE,
     )
 
+    # Termmax
+    TERMMAX_USDE = (
+        "termmax_usde",
+        "Termmax USDe",
+        Token.USDE,
+    )
+    TERMMAX_SUSDE = (
+        "termmax_susde",
+        "Termmax sUSDe",
+        Token.SUSDE,
+    )
+
     # Stake DAO
     STAKEDAO_SUSDE_JULY_LPT = (
         "stakedao_susde_july_effective_lpt_held",
